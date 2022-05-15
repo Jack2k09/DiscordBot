@@ -46,7 +46,7 @@ Morbius premiered at the Plaza Carso in Mexico City on March 10, 2022, and was t
 
 @bot.event
 async def on_typing(channel, member, when ):
-	await channel.send(f"EVERYONE PAY ATTENTION! {member.nick} is typing a message")
+	await channel.send(f"EVERYONE PAY ATTENTION! {member.display_name} is typing a message")
 
 # EXECUTES THE BOT WITH THE SPECIFIED TOKEN. TOKEN HAS BEEN REMOVED AND USED JUST AS AN EXAMPLE.
 bot.run("OTc1MDYwMjI1OTEwNTM4MzIw.GVhdZI.1qrE_xKb7Fco2qjX7_LAYWm3FNHznykfiX9nz0")
