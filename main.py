@@ -44,9 +44,5 @@ There were several attempts to bring Morbius to the big screen since 1998, inclu
 
 Morbius premiered at the Plaza Carso in Mexico City on March 10, 2022, and was theatrically released in the United States on April 1, 2022, after being delayed several times from an initial July 2020 date primarily due to the COVID-19 pandemic. The film received negative reviews from critics who criticized its writing, visual effects, and especially its mid-credits scenes, although Smith's performance was better received.[6][7][8] It has grossed over $162 million against a $75–83 million budget, making it the tenth highest-grossing film of 2022.""")
 
-@bot.event
-async def on_typing(channel, member, when ):
-	await channel.send(f"EVERYONE PAY ATTENTION! {member.display_name} is typing a message")
-
 # EXECUTES THE BOT WITH THE SPECIFIED TOKEN. TOKEN HAS BEEN REMOVED AND USED JUST AS AN EXAMPLE.
 bot.run("OTc1MDYwMjI1OTEwNTM4MzIw.GVhdZI.1qrE_xKb7Fco2qjX7_LAYWm3FNHznykfiX9nz0")
